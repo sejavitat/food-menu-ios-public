@@ -4,10 +4,10 @@
 import PackageDescription
 
 let package = Package(
-    name: "food-menu-iOS",
+    name: "foodMenuiOS",
     products: [
         .library(
-            name: "food-menu-iOS",
+            name: "foodMenuiOS",
             targets: ["App",
                       "Flutter",
                       "FlutterPluginRegistrant",
