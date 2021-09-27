@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name             = "foodMenuiOS"
-  spec.version          = "1.2.0"
+  spec.version          = "1.1.2"
   spec.summary          = "CDIFoodMenu é um framework de uso da Vitat"
   spec.swift_versions   = ['5.0']
   spec.description      = <<-DESC
