@@ -8,12 +8,13 @@ Pod::Spec.new do |spec|
   foodMenuiOS é um framework de uso da Vitat.
                    DESC
 
-                   spec.homepage = "https://github.com/sejavitat/food-menu-ios-public"
+  spec.homepage = "https://github.com/sejavitat/food-menu-ios-public"
   spec.license = { :type => "MIT", :file => "LICENSE" }
   spec.author = { "Erick Yamato" => "erick.yamato@vitat.com.br" }
 
   spec.platform = :ios, "11.0"
 
+  spec.source = { :git => "https://github.com/sejavitat/food-menu-ios-public.git", :tag => "#{spec.name}/#{spec.version}" }
   spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/App.xcframework.zip' }
   spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/Flutter.xcframework.zip' }
   spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/FlutterPluginRegistrant.xcframework.zip' }
