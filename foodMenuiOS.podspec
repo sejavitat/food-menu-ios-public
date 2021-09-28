@@ -14,12 +14,12 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "11.0"
 
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/App.xcframework.zip" }
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/Flutter.xcframework.zip" }
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/FlutterPluginRegistrant.xcframework.zip" }
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/video_player.xcframework.zip" }
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/wakelock.xcframework.zip" }
-  spec.source = { "http": "https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/webview_flutter.xcframework.zip" }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/App.xcframework.zip' }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/Flutter.xcframework.zip' }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/FlutterPluginRegistrant.xcframework.zip' }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/video_player.xcframework.zip' }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/wakelock.xcframework.zip' }
+  spec.source = { :http => 'https://github.com/sejavitat/food-menu-ios-public/releases/download/1.1.2/webview_flutter.xcframework.zip' }
   spec.vendored_frameworks = 'App.xcframework'
   spec.vendored_frameworks = 'Flutter.xcframework'
   spec.vendored_frameworks = 'FlutterPluginRegistrant.xcframework'
